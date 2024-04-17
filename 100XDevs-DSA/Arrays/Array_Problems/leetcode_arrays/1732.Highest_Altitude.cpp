@@ -14,4 +14,35 @@ n == gain.length
 -100 <= gain[i] <= 100
  
 */
- 
+
+class Solution {
+    public:
+
+    int largestAltitude(vector<int>& gain){ // Prefix sum problem
+        int sum=gain[0];
+        int altitudes[]={0};
+        int max_altitude=0; 
+        for (int i=1;i<=gain.size();i++){    // dont write for (int i=0) since arr[i-1] will be arr[-1] i.e. out of bounds
+            altitude[i]=altitude[i-1]+gain[i-1];  // altitudes array. find max element of altitude array
+            sum+=gain[i]; 
+            max_altitude=max(sum,max_altitude);
+        }
+        return max_altitude;
+
+    }
+
+    /*or 
+
+    int largestAltitude(vector<int>&gain){
+        int n=gain.size();
+        vector<int>altitudes(n+1,0);
+
+        for (int i=1;i<=n;i++){
+            altitudes[i]=altitudes[i-1]+gain[i-1];
+
+        }
+        int max_altitude=*max_element(altitudes.begin(),altitudes.end());
+        return max_altitude;
+    }
+}
+*/
