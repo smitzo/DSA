@@ -18,7 +18,7 @@ Constraints:
 1 <= logs.length <= 100
 1950 <= birthi < deathi <= 2050
 */
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 // maximum number of ranges intersection problem
 int maxPopuYear(vector<vector<int>>&logs){
