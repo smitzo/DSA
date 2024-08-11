@@ -1,0 +1,44 @@
+//  bit WISE OPERATORS ARE FASTER THAN MULTIPLICATION AND DIVISION OPERATORS
+
+|| , && are logical operators works with booleans
+| , & are bitwise operators
+
+
+LSB least significant bit left most 12345 1 is LSB
+MSB most significant bit right most 12345 5 is MSB
+
+set bit implies =>1
+clear bit implies =>0
+
+int => 4bytes=32bits
+long=> 8bytes=64bits
+
+INT_MAX= 2^31 -1
+INT_MIN= -2^31
+AND OR  are binary operators i.e they require  2 operands
+
+AND if both bits are set i.e 1, then result is 1
+if both bits are zero, result is 0
+a=10   1010
+&      &&&&
+b=7    0111
+
+a&b=2     0010
+
+OR=> if any bit is 1 , then output is 1
+
+a=10    1010
+||      ||||
+b=7     0111
+
+a||b=2     0010
+
+NOT=> flip the bits
+a=10    1010
+NOT a =>      0101
+
+
+XOR=> if both bits are same , then output is 0 if different, 1
+num^num=0 always;
+a=5 0101 b=10 1010
+a^b=15 1111
