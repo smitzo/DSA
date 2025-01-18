@@ -1,0 +1,10 @@
+Pdp Processor v1.0
+Developed by Jiren Pandya
+Other Contributor:
+Applied by:
+This software is the property of.
+This software helps in analyzing Excel sheets.
+In upcoming updates, we will provide time graph analysis, bug fixes, and additional features.
+The user ID is 0 and the password is 0.
+The password and user ID are unchangeable.
+For any help regarding this software, please call +91 8401751355 (Jiren Pandya) or email at pandyajiren15@gmail.com.

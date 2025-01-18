@@ -17,7 +17,7 @@ class Node {
     }
 }
 
-public class deleteElementInLL {
+public class deleteElementInSinglyLL {
 
     // Function to print the linked list
     public static void printLL(Node head) {

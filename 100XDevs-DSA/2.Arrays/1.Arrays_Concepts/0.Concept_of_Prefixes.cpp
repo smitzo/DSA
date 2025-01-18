@@ -20,7 +20,7 @@ int calcPrefix_sum(int arr[], int n){
     
     int sum;
     int prefixSumArr[n];
-    sum=prefixSumArr[0]=arr[0];
+    sum= prefixSumArr[0]=arr[0];
     
     for (int i=1;i<n;i++){  // dont write for (int i=0) since arr[i-1] will be arr[-1] i.e. out of bounds
         prefixSumArr[i]=prefixSumArr[i-1]+arr[i];

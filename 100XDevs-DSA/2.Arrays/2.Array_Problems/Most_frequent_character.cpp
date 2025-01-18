@@ -30,4 +30,7 @@ string mostFreqChar(string s){
 }
 int main (){
 
+    str1="ssssmmitttittttttttt";
+    mostFreqchar(str1);
+
 }
